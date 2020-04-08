@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chat App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js"></script>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="wii-chat">
+      <h1>Lets chat</h1>
+      <ul>
+        <li><a href="" id="room1">Home</a></li>
+        <li><a href="" id="room2" >Music</a></li>
+        <li><a href="" id="room3">Sports</a></li>
+        <li><a href="" id="history">History</a></li>
+      </ul>
+      <div id="chat-window">
+        <div id="output"></div>
+        <div id="feedback"> </div>
+        <div id="come_in"> </div>
+      </div>
+      <input type="text" placeholder="Name" id="handle">
+      <input type="text" placeholder="Message" id="message">
+      <button type="button" id="send">Send</button>
+    </div>
+    <script src="/chat.js"></script>
+
+
+
+  </body>
+</html>
